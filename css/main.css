@@ -38,6 +38,11 @@ main section .section-header h2:before {
     width: 55px;
     height: 55px;
     display: inline-block;
+    transition: 0.2s linear;
+}
+
+.arrows a:hover .arrow {
+    background-color: rgba(0, 91, 193, 0.4);
 }
 
 .arrows .arrow.left {
@@ -166,8 +171,6 @@ main section#firstScreen a {
     text-transform: uppercase;
     outline: none;
 }
-
-
 
 
 
